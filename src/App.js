@@ -9,7 +9,7 @@ export default function App() {
 
   return (
     <>
-      <h1>Todo List</h1>
+      <h1>Todo List, Welcome </h1>
       <input
         value={name}
         onChange={e => setName(e.target.value)}
